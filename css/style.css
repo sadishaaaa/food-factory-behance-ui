@@ -227,11 +227,17 @@ p {
 .bestSelling-carousel.owl-theme .owl-nav {
   margin-top: 10px;
   top: -11%;
-  left: 89%;
+  right: 0%;
 }
 .item .best-selling-card {
   width: 100%;
-  
+}
+.item {
+  margin-top: 2rem;
+}
+.item-space {
+  margin-left: 0.9rem;
+  margin-right: 0.9rem;
 }
 .chilly {
   position: absolute;
@@ -256,6 +262,7 @@ p {
 .card {
   width: 100%;
   padding: 15px;
+  border-radius: 11px;
   border: none !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 0.7rem 0;
@@ -369,16 +376,18 @@ p {
   padding: 1rem;
   border-radius: 30px;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   color: black;
 }
 .menu-nav-grid a:hover {
-  transition: 0.5s;
+  /* transition: 0.5s; */
   background-color: orange;
 }
 .menu-nav-grid a span {
-  margin-top: -10px;
+  /* margin-top: -10px; */
+  display: inline;
+  align-content: center;
+  font-size: 20px;
 }
 
 .grid-container {
@@ -562,8 +571,8 @@ p {
 }
 .owl-nav {
   position: absolute;
-  top: -30%;
-  left: 90%;
+  top: -15%;
+  right: 0%;
 }
 .tomato-1 {
   position: absolute;
