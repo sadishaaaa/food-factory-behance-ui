@@ -587,9 +587,14 @@ p {
 .Newsletter {
   height: 21.875rem;
   width: 100%;
-  /* background-image: url('../images/juice.png'), linear-gradient( #323131, #010101); */
-
-  background-image: url(../images/news.avif);
+  background-image: linear-gradient(
+      90deg,
+      rgba(53, 53, 53, 0.75) 0,
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../images/news.avif");
+  /* 
+  background-image: url(../images/news.avif); */
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -600,6 +605,7 @@ p {
 .subscribe {
   text-align: center;
   margin: auto;
+  color: #fff;
 }
 
 /* button inside input */
