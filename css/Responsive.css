@@ -97,10 +97,15 @@
     color: white;
     font-weight: bold;
   }
-  .menu-nav-grid a {
-    padding: 0.5rem;
-    font-size: 0.5rem;
+
+  .signup-btn {
+    display: contents;
+    margin: 0 auto;
   }
+  /* .menu-nav-grid a {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  } */
 
   /*
   . .sign-up {
@@ -126,8 +131,8 @@
   }
   .owl-nav {
     position: absolute;
-    top: -20%;
-    left: 46%;
+    top: -12%;
+    left: 2%;
   }
   .menu-nav-grid div {
     display: grid;
@@ -135,12 +140,12 @@
   }
   .menu-nav-grid a {
     padding: 0.3rem;
-    font-size: 0.4rem;
+    font-size: 0.6rem;
   }
   .bestSelling-carousel.owl-theme .owl-nav {
     margin-top: 10px;
     top: -11%;
-    left: 43%;
+    left: 2%;
   }
   .item {
     display: flex;
@@ -161,7 +166,10 @@
   }
   .menu-nav-grid a {
     padding: 0.5rem;
-    font-size: 0.4rem;
+    font-size: 0.7rem;
+  }
+  .menu-nav-grid a span {
+    display: none;
   }
   .main-btn {
     padding: 10px;

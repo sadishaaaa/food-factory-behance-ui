@@ -149,6 +149,9 @@ p {
   color: black;
 }
 
+.signup-btn {
+  display: none;
+}
 /* section-1 */
 .top-banner {
   width: 100%;
@@ -584,8 +587,9 @@ p {
 .Newsletter {
   height: 21.875rem;
   width: 100%;
-  background-image: url(../images/news.avif);
+  /* background-image: url('../images/juice.png'), linear-gradient( #323131, #010101); */
 
+  background-image: url(../images/news.avif);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
